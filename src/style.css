@@ -1,0 +1,76 @@
+.App{
+    height: 100vh;
+    padding: 0px 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.books{
+    display: flex;
+    gap: 20px;
+}
+
+.book{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: antiquewhite;
+}
+
+/* .delete{
+    background-color: #ff0000;
+    border: none ;
+    border-radius: 20px;
+    padding: 3px 6px;
+    cursor: pointer;
+    color: white;
+}
+.update{
+    background-color: #7853ff;
+    border: none;
+    border-radius: 20px;
+    padding: 3px 6px;
+    cursor: pointer;
+    color: white;
+} */
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.frombutton{
+    background-color: green !important;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: progress;
+    color: white;
+    font-weight: bold;
+
+}
+
+.btn{
+    background-color: #7853ff;
+    height: 20px;
+    display: flex       
+    
+}
